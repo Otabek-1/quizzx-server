@@ -1,0 +1,302 @@
+[
+    {
+      "id": 1,
+      "text": "Dunyo aholisi eng ko'p bo'lgan davlat qaysi?",
+      "options": ["Xitoy", "Hindiston", "AQSh", "Indoneziya"],
+      "correct": "Hindiston"
+    },
+    {
+      "id": 2,
+      "text": "Yerning yagona tabiiy yo'ldoshi qanday nomlanadi?",
+      "options": ["Mars", "Oy", "Venera", "Yupiter"],
+      "correct": "Oy"
+    },
+    {
+      "id": 3,
+      "text": "Eng uzun daryo qaysi?",
+      "options": ["Amazonka", "Nil", "Yanszi", "Missisipi"],
+      "correct": "Amazonka"
+    },
+    {
+      "id": 4,
+      "text": "Olimpiya o'yinlari qanchada bir marta o'tkaziladi?",
+      "options": ["2 yilda", "4 yilda", "6 yilda", "8 yilda"],
+      "correct": "4 yilda"
+    },
+    {
+      "id": 5,
+      "text": "Eng katta okean qaysi?",
+      "options": ["Tinch okeani", "Atlantika okeani", "Hind okeani", "Arktika okeani"],
+      "correct": "Tinch okeani"
+    },
+    {
+      "id": 6,
+      "text": "Kim 'Mona Liza' rasmini chizgan?",
+      "options": ["Van Gog", "Leonardo da Vinchi", "Pikasso", "Mikelandjelo"],
+      "correct": "Leonardo da Vinchi"
+    },
+    {
+      "id": 7,
+      "text": "Eng katta sayyora qaysi?",
+      "options": ["Yupiter", "Saturn", "Uran", "Neptun"],
+      "correct": "Yupiter"
+    },
+    {
+      "id": 8,
+      "text": "Internet qachon keng ommalashdi?",
+      "options": ["1970-yillar", "1980-yillar", "1990-yillar", "2000-yillar"],
+      "correct": "1990-yillar"
+    },
+    {
+      "id": 9,
+      "text": "Eng katta qit'a qaysi?",
+      "options": ["Osiyo", "Afrika", "Avstraliya", "Antarktida"],
+      "correct": "Osiyo"
+    },
+    {
+      "id": 10,
+      "text": "Telefonni kim ixtiro qilgan?",
+      "options": ["Tomas Edison", "Aleksandr Bell", "Nikola Tesla", "Stiv Jobs"],
+      "correct": "Aleksandr Bell"
+    },
+    {
+      "id": 11,
+      "text": "Eng baland tog' qaysi?",
+      "options": ["Everest", "K2", "Kangchenjunga", "Lhotse"],
+      "correct": "Everest"
+    },
+    {
+      "id": 12,
+      "text": "Yerning atmosferasi qanday gazdan asosan iborat?",
+      "options": ["Kislorod", "Azot", "Karbonat angidrid", "Vodorod"],
+      "correct": "Azot"
+    },
+    {
+      "id": 13,
+      "text": "Eng katta sutemizuvchi hayvon qaysi?",
+      "options": ["Ko'k kit", "Fil", "Karkidon", "Jirafa"],
+      "correct": "Ko'k kit"
+    },
+    {
+      "id": 14,
+      "text": "Qaysi davlat eng ko'p oltin ishlab chiqaradi?",
+      "options": ["Xitoy", "Rossiya", "Avstraliya", "AQSh"],
+      "correct": "Xitoy"
+    },
+    {
+      "id": 15,
+      "text": "Eng katta cho'l qaysi?",
+      "options": ["Saxara", "Gobi", "Kalahari", "Antarktida cho'li"],
+      "correct": "Antarktida cho'li"
+    },
+    {
+      "id": 16,
+      "text": "Qaysi sayyora Quyoshga eng yaqin?",
+      "options": ["Merkuriy", "Venera", "Yer", "Mars"],
+      "correct": "Merkuriy"
+    },
+    {
+      "id": 17,
+      "text": "Bir yilda nechta kun bor?",
+      "options": ["365", "360", "366", "364"],
+      "correct": "365"
+    },
+    {
+      "id": 18,
+      "text": "Eng tez hayvon qaysi?",
+      "options": ["Gepard", "Sher", "Qoplon", "Burgut"],
+      "correct": "Gepard"
+    },
+    {
+      "id": 19,
+      "text": "Eng katta vulqon qaysi?",
+      "options": ["Vezuviy", "Mauna Loa", "Etna", "Kilimanjaro"],
+      "correct": "Mauna Loa"
+    },
+    {
+      "id": 20,
+      "text": "Qaysi element eng ko'p uchraydi?",
+      "options": ["Kislorod", "Vodorod", "Karbon", "Azot"],
+      "correct": "Vodorod"
+    },
+    {
+      "id": 21,
+      "text": "Eng katta ko'l qaysi?",
+      "options": ["Baykal", "Kaspiy dengizi", "Viktoriya", "Tanganika"],
+      "correct": "Kaspiy dengizi"
+    },
+    {
+      "id": 22,
+      "text": "Qaysi davlat eng katta maydonga ega?",
+      "options": ["Rossiya", "Kanada", "Xitoy", "AQSh"],
+      "correct": "Rossiya"
+    },
+    {
+      "id": 23,
+      "text": "Eng katta orol qaysi?",
+      "options": ["Grenlandiya", "Avstraliya", "Madagaskar", "Borneo"],
+      "correct": "Grenlandiya"
+    },
+    {
+      "id": 24,
+      "text": "Kim E=mc² formulasini kashf etgan?",
+      "options": ["Nyuton", "Eynshteyn", "Tesla", "Galiley"],
+      "correct": "Eynshteyn"
+    },
+    {
+      "id": 25,
+      "text": "Eng ko'p ishlatiladigan dasturlash tili qaysi?",
+      "options": ["Python", "Java", "C++", "JavaScript"],
+      "correct": "Python"
+    },
+    {
+      "id": 26,
+      "text": "Qaysi hayvon eng uzoq umr ko'radi?",
+      "options": ["Toshbaqa", "Fil", "Kit", "Parrot"],
+      "correct": "Toshbaqa"
+    },
+    {
+      "id": 27,
+      "text": "Eng katta muzlik qaysi?",
+      "options": ["Lambert muzligi", "Grinvich muzligi", "Habbard muzligi", "Pine Island muzligi"],
+      "correct": "Lambert muzligi"
+    },
+    {
+      "id": 28,
+      "text": "Qaysi davlatda eng ko'p vulqon bor?",
+      "options": ["Indoneziya", "Yaponiya", "AQSh", "Italiya"],
+      "correct": "Indoneziya"
+    },
+    {
+      "id": 29,
+      "text": "Eng katta sharshara qaysi?",
+      "options": ["Niagara", "Viktoriya", "Anxel", "Iguasu"],
+      "correct": "Anxel"
+    },
+    {
+      "id": 30,
+      "text": "Qaysi sayyora eng sovuq?",
+      "options": ["Uran", "Neptun", "Saturn", "Mars"],
+      "correct": "Uran"
+    },
+    {
+      "id": 31,
+      "text": "Eng katta qush qaysi?",
+      "options": ["Tuyaqush", "Burgut", "Kondor", "Albatros"],
+      "correct": "Tuyaqush"
+    },
+    {
+      "id": 32,
+      "text": "Qaysi metal eng yaxshi o'tkazgich?",
+      "options": ["Oltin", "Mis", "Kumush", "Temir"],
+      "correct": "Kumush"
+    },
+    {
+      "id": 33,
+      "text": "Eng katta dinozavr qaysi edi?",
+      "options": ["T-Rex", "Brontosaurus", "Argentinosaurus", "Velociraptor"],
+      "correct": "Argentinosaurus"
+    },
+    {
+      "id": 34,
+      "text": "Qaysi davlat eng ko'p qahva ishlab chiqaradi?",
+      "options": ["Braziliya", "Kolumbiya", "Vetnam", "Efiopiya"],
+      "correct": "Braziliya"
+    },
+    {
+      "id": 35,
+      "text": "Eng katta teleskop qaysi?",
+      "options": ["Hubble", "James Webb", "Arecibo", "VLT"],
+      "correct": "James Webb"
+    },
+    {
+      "id": 36,
+      "text": "Qaysi hayvon eng og'ir?",
+      "options": ["Ko'k kit", "Fil", "Karkidon", "Begemot"],
+      "correct": "Ko'k kit"
+    },
+    {
+      "id": 37,
+      "text": "Eng katta stadion qaysi?",
+      "options": ["Marakana", "Wembley", "Rungrado", "Camp Nou"],
+      "correct": "Rungrado"
+    },
+    {
+      "id": 38,
+      "text": "Qaysi davlat eng ko'p neft ishlab chiqaradi?",
+      "options": ["Saudiya Arabistoni", "AQSh", "Rossiya", "Eron"],
+      "correct": "AQSh"
+    },
+    {
+      "id": 39,
+      "text": "Eng katta qal'a qaysi?",
+      "options": ["Praga qal'asi", "Versal", "Windsor qal'asi", "Himeji qal'asi"],
+      "correct": "Praga qal'asi"
+    },
+    {
+      "id": 40,
+      "text": "Qaysi sayyora eng ko'p yo'ldoshga ega?",
+      "options": ["Yupiter", "Saturn", "Uran", "Neptun"],
+      "correct": "Saturn"
+    },
+    {
+      "id": 41,
+      "text": "Eng katta kutubxona qaysi?",
+      "options": ["Kongress kutubxonasi", "Britaniya kutubxonasi", "Rossiya davlat kutubxonasi", "Ny York jamoat kutubxonasi"],
+      "correct": "Kongress kutubxonasi"
+    },
+    {
+      "id": 42,
+      "text": "Qaysi hayvon eng baland ovoz chiqaradi?",
+      "options": ["Sher", "Kit", "Karkidon", "Burgut"],
+      "correct": "Kit"
+    },
+    {
+      "id": 43,
+      "text": "Eng katta ko'prik qaysi?",
+      "options": ["Golden Gate", "Danyang-Kunshan", "Akashi Kaikyo", "Sydney Harbour"],
+      "correct": "Danyang-Kunshan"
+    },
+    {
+      "id": 44,
+      "text": "Qaysi davlat eng ko'p choy ishlab chiqaradi?",
+      "options": ["Xitoy", "Hindiston", "Shri-Lanka", "Keniya"],
+      "correct": "Xitoy"
+    },
+    {
+      "id": 45,
+      "text": "Eng katta muzey qaysi?",
+      "options": ["Luvr", "Ermitaj", "Metropoliten", "Vatikam muzeyi"],
+      "correct": "Luvr"
+    },
+    {
+      "id": 46,
+      "text": "Qaysi hayvon eng uzoq masofani suzadi?",
+      "options": ["Ko'k kit", "Delfin", "Kumush baliq", "Pingvin"],
+      "correct": "Ko'k kit"
+    },
+    {
+      "id": 47,
+      "text": "Eng katta aeroport qaysi?",
+      "options": ["Dubay", "Hartsfield-Jackson", "Pekin", "London Heathrow"],
+      "correct": "Hartsfield-Jackson"
+    },
+    {
+      "id": 48,
+      "text": "Qaysi sayyora eng katta halqaga ega?",
+      "options": ["Yupiter", "Saturn", "Uran", "Neptun"],
+      "correct": "Saturn"
+    },
+    {
+      "id": 49,
+      "text": "Eng katta opera teatri qaysi?",
+      "options": ["Sidney opera teatri", "La Scala", "Metropoliten opera", "Bolshoy teatr"],
+      "correct": "Metropoliten opera"
+    },
+    {
+      "id": 50,
+      "text": "Qaysi davlat eng ko'p kitob nashr etadi?",
+      "options": ["AQSh", "Xitoy", "Germaniya", "Yaponiya"],
+      "correct": "Xitoy"
+    }
+  ]
