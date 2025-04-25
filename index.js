@@ -5,13 +5,8 @@ const cors = require("cors");
 const quizzes = require("./quizzes.json"); // quizzes.json faylini import qilish
 
 const app = express();
-const corsOptions = {
-    origin: 'http://localhost:5173', // Frontend manzilingiz
-    methods: 'GET,POST,PUT,DELETE', // Qo'llaniladigan metodlar
-    allowedHeaders: 'Content-Type, Authorization', // Ruxsat berilgan header'lar
-  };
   
-  app.use(cors(corsOptions)); // CORS middleware qo'shish
+app.use(cors()); // CORS middleware qo'shish
 const PORT = 3000; // REST API uchun port
 
 // gRPC yuklash
@@ -86,6 +81,20 @@ app.post("/api/result", express.json(), (req, res) => {
     res.json(response);
   });
 });
+
+// Interval bilan serverga so'rov yuborish
+setInterval(() => {
+  //  REST API serveriga o'z-o'ziga so'rov yuborish
+  const axios = require('axios');
+
+  axios.get(`http://localhost:${PORT}/api/quizzes`)
+    .then(response => {
+      console.log('Quizzes data received:', response.data);
+    })
+    .catch(error => {
+      console.error('Error while fetching quizzes:', error);
+    });
+}, 50000); // Har 50 soniyada so'rov yuboriladi
 
 // REST API server'ni ishga tushurish
 app.listen(PORT, () => {
