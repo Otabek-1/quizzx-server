@@ -2,12 +2,13 @@ const express = require("express");
 const grpc = require("@grpc/grpc-js");
 const protoLoader = require("@grpc/proto-loader");
 const cors = require("cors");
+const axios = require("axios");
 const quizzes = require("./quizzes.json"); // quizzes.json faylini import qilish
 
 const app = express();
-  
-app.use(cors()); // CORS middleware qo'shish
-const PORT = 3000; // REST API uchun port
+app.use(cors());
+app.use(express.json()); // JSON body parser
+const PORT = 3000;
 
 // gRPC yuklash
 const packageDef = protoLoader.loadSync("quizz.proto", {});
@@ -16,11 +17,11 @@ const quizzPackage = grpcObject.quizzPackage;
 
 const grpcServer = new grpc.Server();
 const grpcClient = new quizzPackage.quizzService(
-  "127.0.0.1:50051", // gRPC server manzili
+  "127.0.0.1:50051",
   grpc.credentials.createInsecure()
 );
 
-// gRPC server'ni ishlatish
+// gRPC server
 grpcServer.addService(quizzPackage.quizzService.service, {
   GetQuizzes: (call) => {
     const selected = new Set();
@@ -35,10 +36,7 @@ grpcServer.addService(quizzPackage.quizzService.service, {
   },
   TestResult: (call, callback) => {
     const { name, corrects } = call.request;
-    callback(null, {
-      name,
-      result: corrects,
-    });
+    callback(null, { name, result: corrects });
   },
 });
 
@@ -50,29 +48,24 @@ grpcServer.bindAsync("127.0.0.1:50051", grpc.ServerCredentials.createInsecure(),
   console.log(`gRPC server running at http://127.0.0.1:${port}`);
 });
 
-// REST API uchun route va server yaratish
+// REST API
+
+// Quizzes olish
 app.get("/api/quizzes", (req, res) => {
   const quizzes = [];
-
   const call = grpcClient.GetQuizzes({}, {});
 
-  call.on("data", (quiz) => {
-    quizzes.push(quiz);
-  });
-
-  call.on("end", () => {
-    res.json(quizzes);
-  });
-
+  call.on("data", (quiz) => quizzes.push(quiz));
+  call.on("end", () => res.json(quizzes));
   call.on("error", (err) => {
     console.error("gRPC error: ", err);
     res.status(500).json({ error: "gRPC error" });
   });
 });
 
-app.post("/api/result", express.json(), (req, res) => {
+// Natijani olish
+app.post("/api/result", (req, res) => {
   const { name, corrects } = req.body;
-
   grpcClient.TestResult({ name, corrects }, (err, response) => {
     if (err) {
       console.error("gRPC error: ", err);
@@ -82,21 +75,43 @@ app.post("/api/result", express.json(), (req, res) => {
   });
 });
 
-// Interval bilan serverga so'rov yuborish
-setInterval(() => {
-  //  REST API serveriga o'z-o'ziga so'rov yuborish
-  const axios = require('axios');
+// 🆕 Google Sheets ga natijani saqlash
+app.post("/api/save-result", async (req, res) => {
+  const { name, score } = req.body;
 
+  try {
+    await saveToSheets(name, score);
+    res.json({ message: "Natija Google Sheets'ga yuborildi!" });
+  } catch (error) {
+    console.error("Google Sheets error: ", error);
+    res.status(500).json({ error: "Sheetsga yuborishda xatolik" });
+  }
+});
+
+// Google Sheets'ga yozish funksiyasi
+async function saveToSheets(name, score) {
+  const SHEET_URL = 'https://sheetdb.io/api/v1/dqe5umll0mduq'; // <-- o'zingizni SheetDB URL'ini yozing!
+
+  await axios.post(SHEET_URL, {
+    data: {
+      name,
+      score,
+    }
+  });
+}
+
+// Interval bilan serverga so'rov
+setInterval(() => {
   axios.get(`http://localhost:${PORT}/api/quizzes`)
     .then(response => {
-      console.log('Quizzes data received:', response.data);
+      console.log('Quizzes data received:', response.data.length, 'ta savol');
     })
     .catch(error => {
       console.error('Error while fetching quizzes:', error);
     });
-}, 50000); // Har 50 soniyada so'rov yuboriladi
+}, 50000);
 
-// REST API server'ni ishga tushurish
+// Serverni ishga tushurish
 app.listen(PORT, () => {
   console.log(`REST API server is running at http://localhost:${PORT}`);
 });
