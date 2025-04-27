@@ -1,302 +1,62 @@
 [
   {
     "id": 1,
-    "text": "Assassinlar guruhining asosiy diniy mazhabi qaysi edi?",
-    "options": ["Sunniy", "Shia Ismoiliy", "Zardushtiylik", "Xristianlik"],
-    "correct": "Shia Ismoiliy"
+    "text": "Assassinlar qaysi diniy sekta bilan bog‘liq bo‘lgan?",
+    "options": ["Sunniylar", "Ismoiliylar", "Xristianlar", "Zardushtiylar"],
+    "correct": "Ismoiliylar"
   },
   {
     "id": 2,
-    "text": "Assassinlar guruhining asoschisi kim edi?",
-    "options": ["Salohiddin Ayyubiy", "Hasan ibn Sabboh", "Nizam ul-Mulk", "Chingizxon"],
+    "text": "Assassinlar asoschisi kim edi?",
+    "options": ["Salohiddin Ayyubiy", "Hasan ibn Sabboh", "Nizam ul-Mulk", "Konrad Monferrat"],
     "correct": "Hasan ibn Sabboh"
   },
   {
     "id": 3,
-    "text": "Assassinlarning asosiy qo‘rg‘oni qayerda joylashgan edi?",
-    "options": ["Bag‘dod", "Damashq", "Alamut", "Quddus"],
-    "correct": "Alamut"
+    "text": "Assassinlar o‘z harakatiga qayerda asos solgan?",
+    "options": ["Damashq", "Bag‘dod", "Alamut qal’asi", "Misr"],
+    "correct": "Alamut qal’asi"
   },
   {
     "id": 4,
-    "text": "Assassinlar qanday usulda dushmanlarini yo‘q qilishgan?",
-    "options": ["Ochiq janglarda", "Suiqasd orqali", "Harbiy yurishlar bilan", "Iqtisodiy bosim bilan"],
-    "correct": "Suiqasd orqali"
+    "text": "Assassinlar qanday maqsad bilan suiqasd uyushtirgan?",
+    "options": ["Boylik orttirish uchun", "Siyosiy ta’sir o‘tkazish uchun", "Shaxsiy qasos uchun", "Savdo yo‘llarini egallash uchun"],
+    "correct": "Siyosiy ta’sir o‘tkazish uchun"
   },
   {
     "id": 5,
-    "text": "Assassinlarning nomi qayerdan kelib chiqqan?",
-    "options": ["Hashish ichuvchilar", "Alamut aholisi", "Saljuqiylar jangchilari", "Salibchilar qo‘mondonlari"],
-    "correct": "Hashish ichuvchilar"
+    "text": "Quyidagilardan qaysi biri Assassinlar tomonidan o‘ldirilgan?",
+    "options": ["Salohiddin Ayyubiy", "Malik Sanjar", "Nizam ul-Mulk", "Richard Sheryurak"],
+    "correct": "Nizam ul-Mulk"
   },
   {
     "id": 6,
-    "text": "Assassinlar qaysi asrlarda faoliyat yuritgan?",
-    "options": ["9–10-asrlar", "11–13-asrlar", "14–15-asrlar", "16–17-asrlar"],
-    "correct": "11–13-asrlar"
+    "text": "Konrad Monferrat qaysi voqea natijasida vafot etgan?",
+    "options": ["Urushda", "Salibchilar o'rtasidagi nizo", "Assassinlar suiqasdi", "Salohiddin bilan duel"],
+    "correct": "Assassinlar suiqasdi"
   },
   {
     "id": 7,
-    "text": "Assassinlarning asosiy maqsadi nima edi?",
-    "options": ["Dunyoni zabt etish", "Siyosiy ta’sir o‘tkazish", "Diniy islohotlar", "Savdo yo‘llarini nazorat qilish"],
-    "correct": "Siyosiy ta’sir o‘tkazish"
+    "text": "Assassinlar Salohiddin Ayyubiyga qarshi necha marta suiqasd uyushtirishgan?",
+    "options": ["1 marta", "2 marta", "3 marta", "4 marta"],
+    "correct": "2 marta"
   },
   {
     "id": 8,
-    "text": "Nizam ul-Mulk kim edi?",
-    "options": ["Assassinlar rahbari", "Saljuqiylar vaziri", "Salibchi qo‘mondon", "Arab xalifasi"],
-    "correct": "Saljuqiylar vaziri"
+    "text": "Salohiddin Assassinlar bilan keyinchalik qanday munosabatda bo‘lgan?",
+    "options": ["Ularni butunlay yo‘q qilgan", "Ular bilan tinchlik o‘rnatgan", "Ularni o‘z armiyasiga qo‘shgan", "Qochishga majbur qilgan"],
+    "correct": "Ular bilan tinchlik o‘rnatgan"
   },
   {
     "id": 9,
-    "text": "Nizam ul-Mulk qachon o‘ldirilgan?",
-    "options": ["1092-yil", "1175-yil", "1192-yil", "1256-yil"],
-    "correct": "1092-yil"
+    "text": "Assassinlar tarixda qaysi xalq tomonidan yakson qilingan?",
+    "options": ["ArABLAR", "Saljuqiylar", "Mo‘g‘ullar", "Salibchilar"],
+    "correct": "Mo‘g‘ullar"
   },
   {
     "id": 10,
-    "text": "Konrad Monferrat kim edi?",
-    "options": ["Saljuqiy sultoni", "Quddus qirolligiga da’vogar", "Assassinlar rahbari", "Fotimiy hokimi"],
-    "correct": "Quddus qirolligiga da’vogar"
-  },
-  {
-    "id": 11,
-    "text": "Konrad Monferrat qachon suiqasd natijasida o‘ldirilgan?",
-    "options": ["1092-yil", "1175-yil", "1192-yil", "1256-yil"],
-    "correct": "1192-yil"
-  },
-  {
-    "id": 12,
-    "text": "Malik Sanjar bilan Assassinlar o‘rtasida nima sodir bo‘lgan?",
-    "options": ["U bilan sulh tuzishgan", "Uni o‘ldirishgan", "Unga qarshi ittifoq tuzishgan", "Uni qo‘llab-quvvatlashgan"],
-    "correct": "U bilan sulh tuzishgan"
-  },
-  {
-    "id": 13,
-    "text": "Salohiddin Ayyubiy qaysi mazhabga mansub edi?",
-    "options": ["Shia Ismoiliy", "Sunniy", "Zardushtiylik", "Xristianlik"],
-    "correct": "Sunniy"
-  },
-  {
-    "id": 14,
-    "text": "Salohiddin Ayyubiyga qarshi birinchi suiqasd qachon bo‘lgan?",
-    "options": ["1092-yil", "1175-yil", "1192-yil", "1256-yil"],
-    "correct": "1175-yil"
-  },
-  {
-    "id": 15,
-    "text": "Salohiddin Ayyubiyga qarshi ikkinchi suiqasd qayerda bo‘lgan?",
-    "options": ["Alamut", "Homs", "Al-Masyaf", "Damashq"],
-    "correct": "Al-Masyaf"
-  },
-  {
-    "id": 16,
-    "text": "Salohiddin Ayyubiy chodirida topilgan qog‘ozda nima yozilgan edi?",
-    "options": ["Biz seni qo‘llab-quvvatlaymiz", "Biz hohlasak, seni o‘ldiramiz", "Sulh tuzishga tayyormiz", "Qal’amizni tark et"],
-    "correct": "Biz hohlasak, seni o‘ldiramiz"
-  },
-  {
-    "id": 17,
-    "text": "Assassinlarning oxirgi rahbari kim edi?",
-    "options": ["Hasan ibn Sabboh", "Nizam ul-Mulk", "Ruknuddin Xurshoh", "Salohiddin Ayyubiy"],
-    "correct": "Ruknuddin Xurshoh"
-  },
-  {
-    "id": 18,
-    "text": "Assassinlar qachon mo‘g‘ullar tomonidan yo‘q qilingan?",
-    "options": ["1092-yil", "1175-yil", "1256-yil", "1291-yil"],
+    "text": "Alamut qal’asi qaysi yilda mo‘g‘ullar tomonidan egallangan?",
+    "options": ["1219-yil", "1256-yil", "1237-yil", "1245-yil"],
     "correct": "1256-yil"
-  },
-  {
-    "id": 19,
-    "text": "Assassinlarning qal’alarini kim vayron qilgan?",
-    "options": ["Chingizxon", "Xulaguxon", "Salohiddin Ayyubiy", "Richard Sheryurak"],
-    "correct": "Xulaguxon"
-  },
-  {
-    "id": 20,
-    "text": "Assassinlar qaysi imperiyaga qarshi suiqasd uyushtirishga harakat qilgan?",
-    "options": ["Mo‘g‘ullar imperiyasi", "Vizantiya imperiyasi", "Rim imperiyasi", "Ummaviylar imperiyasi"],
-    "correct": "Mo‘g‘ullar imperiyasi"
-  },
-  {
-    "id": 21,
-    "text": "Quyidagi ma’lumotlardan qaysilari to‘g‘ri?\n1. Assassinlar Shia Ismoiliy mazhabiga mansub edi.\n2. Ularning asosiy qo‘rg‘oni Bag‘dodda edi.\n3. Hasan ibn Sabboh ularning asoschisi edi.",
-    "options": ["1 va 2", "1 va 3", "2 va 3", "1, 2 va 3"],
-    "correct": "1 va 3"
-  },
-  {
-    "id": 22,
-    "text": "Quyidagi shaxslardan qaysilari Assassinlar tomonidan o‘ldirilgan?\n1. Nizam ul-Mulk\n2. Salohiddin Ayyubiy\n3. Konrad Monferrat",
-    "options": ["1 va 2", "1 va 3", "2 va 3", "1, 2 va 3"],
-    "correct": "1 va 3"
-  },
-  {
-    "id": 23,
-    "text": "Assassinlar qaysi strategiyaga asoslangan edi?",
-    "options": ["Ochiq harbiy yurishlar", "Qo‘rquv orqali ta’sir o‘tkazish", "Diniy targ‘ibot", "Iqtisodiy boykot"],
-    "correct": "Qo‘rquv orqali ta’sir o‘tkazish"
-  },
-  {
-    "id": 24,
-    "text": "Assassinlarning eng mashhur qo‘rg‘oni qaysi edi?",
-    "options": ["Al-Masyaf", "Alamut", "Homs", "Qohira"],
-    "correct": "Alamut"
-  },
-  {
-    "id": 25,
-    "text": "Quyidagi voqealardan qaysi biri Salohiddin Ayyubiy bilan bog‘liq?\n1. Chodirida pichoq va ogohlantiruv xati topilgan.\n2. U Assassinlar bilan sulh tuzgan.\n3. U Alamutni zabt etgan.",
-    "options": ["1 va 2", "1 va 3", "2 va 3", "1, 2 va 3"],
-    "correct": "1 va 2"
-  },
-  {
-    "id": 26,
-    "text": "Assassinlar qaysi shaxsga bir necha bor suiqasd uyushtirgan, lekin muvaffaqiyatsiz bo‘lgan?",
-    "options": ["Nizam ul-Mulk", "Malik Sanjar", "Konrad Monferrat", "Hasan ibn Sabboh"],
-    "correct": "Malik Sanjar"
-  },
-  {
-    "id": 27,
-    "text": "Assassinlarning suiqasd usuli qanday edi?",
-    "options": ["Ommaviy joylarda hujum qilish", "Yashirincha zahar berish", "Katta janglarda qatnashish", "Dushmanlarni iqtisodiy jihatdan zaiflashtirish"],
-    "correct": "Ommaviy joylarda hujum qilish"
-  },
-  {
-    "id": 28,
-    "text": "Assassinlar qaysi davlat bilan dushmanlik qilgan?\n1. Saljuqiylar\n2. Fotimiylar\n3. Ayyubiylar",
-    "options": ["1 va 2", "1 va 3", "2 va 3", "1, 2 va 3"],
-    "correct": "1 va 3"
-  },
-  {
-    "id": 29,
-    "text": "Konrad Monferratning o‘limida kimning ishtiroki bo‘lishi mumkinligi taxmin qilingan?",
-    "options": ["Salohiddin Ayyubiy", "Richard Sheryurak", "Nizam ul-Mulk", "Malik Sanjar"],
-    "correct": "Richard Sheryurak"
-  },
-  {
-    "id": 30,
-    "text": "Assassinlarning razvedka tarmog‘i qanday sifatlangan?",
-    "options": ["Zaif va tartibsiz", "O‘z davrining eng yaxshisi", "Faqat mahalliy darajada", "Faqat diniy maqsadlar uchun"],
-    "correct": "O‘z davrining eng yaxshisi"
-  },
-  {
-    "id": 31,
-    "text": "Quyidagi ma’lumotlardan qaysilari to‘g‘ri?\n1. Assassinlar Chingizxon tomonidan yo‘q qilingan.\n2. Ularning oxirgi rahbari Ruknuddin Xurshoh edi.\n3. Ular Salohiddin Ayyubiyni o‘ldirishga muvaffaq bo‘lgan.",
-    "options": ["1 va 2", "1 va 3", "2 va 3", "1, 2 va 3"],
-    "correct": "1 va 2"
-  },
-  {
-    "id": 32,
-    "text": "Assassinlar qaysi shaxsni o‘ldirishga harakat qilgan, lekin muvaffaqiyatsiz bo‘lgan?\n1. Salohiddin Ayyubiy\n2. Malik Sanjar\n3. Munke",
-    "options": ["1 va 2", "1 va 3", "2 va 3", "1, 2 va 3"],
-    "correct": "1, 2 va 3"
-  },
-  {
-    "id": 33,
-    "text": "Assassinlarning Al-Masyaf qal’asidagi suiqasd urinishida Salohiddin Ayyubiy nima topdi?",
-    "options": ["Xazina", "Pichoq va xat", "Qurol", "Zahirli modda"],
-    "correct": "Pichoq va xat"
-  },
-  {
-    "id": 34,
-    "text": "Assassinlar qaysi imperiyaning vazirini o‘ldirgan?",
-    "options": ["Mo‘g‘ullar", "Saljuqiylar", "Ummaviylar", "Vizantiya"],
-    "correct": "Saljuqiylar"
-  },
-  {
-    "id": 35,
-    "text": "Assassinlarning suiqasdlarida qanday xususiyatlar ustunlik qilgan?",
-    "options": ["Anizlik, sabr, sadoqat", "Kuch, tezlik, ommaviylik", "Moliyaviy resurslar, texnologiya", "Diniy targ‘ibot, diplomatiya"],
-    "correct": "Anizlik, sabr, sadoqat"
-  },
-  {
-    "id": 36,
-    "text": "Assassinlar qaysi shaxsga qarshi suiqasd uyushtirishgan, lekin u omon qolgan?\n1. Salohiddin Ayyubiy\n2. Malik Sanjar\n3. Konrad Monferrat",
-    "options": ["1 va 2", "1 va 3", "2 va 3", "1, 2 va 3"],
-    "correct": "1 va 2"
-  },
-  {
-    "id": 37,
-    "text": "Assassinlarning qal’alari qancha edi?",
-    "options": ["10 ta", "50 ta", "100 ta", "500 ta"],
-    "correct": "100 ta"
-  },
-  {
-    "id": 38,
-    "text": "Assassinlar qaysi davrda O‘rta Osiyoni zabt etgan mo‘g‘ullarga qarshi chiqishgan?",
-    "options": ["1092-yil", "1175-yil", "1237-yil", "1256-yil"],
-    "correct": "1237-yil"
-  },
-  {
-    "id": 39,
-    "text": "Assassinlar qaysi shaxsni o‘ldirish uchun guruh yuborgan, lekin muvaffaqiyatsiz bo‘lgan?",
-    "options": ["Chingizxon", "Munke", "Xulaguxon", "Salohiddin Ayyubiy"],
-    "correct": "Munke"
-  },
-  {
-    "id": 40,
-    "text": "Quyidagi shaxslardan qaysilari Assassinlar bilan kelishuvga erishgan?\n1. Salohiddin Ayyubiy\n2. Malik Sanjar\n3. Nizam ul-Mulk",
-    "options": ["1 va 2", "1 va 3", "2 va 3", "1, 2 va 3"],
-    "correct": "1 va 2"
-  },
-  {
-    "id": 41,
-    "text": "Assassinlarning suiqasdlarida qanday joylar tanlangan?",
-    "options": ["Faqat qal’alar", "Ommaviy joylar, ibodatxonalar, saroylar", "Faqat yashirin joylar", "Faqat jang maydonlari"],
-    "correct": "Ommaviy joylar, ibodatxonalar, saroylar"
-  },
-  {
-    "id": 42,
-    "text": "Assassinlar qaysi shaxsni o‘ldirishdan oldin ogohlantirgan?",
-    "options": ["Nizam ul-Mulk", "Salohiddin Ayyubiy", "Konrad Monferrat", "Malik Sanjar"],
-    "correct": "Salohiddin Ayyubiy"
-  },
-  {
-    "id": 43,
-    "text": "Assassinlarning yo‘q qilinishiga kim rahbarlik qilgan?",
-    "options": ["Chingizxon", "Xulaguxon", "Munke", "Salohiddin Ayyubiy"],
-    "correct": "Xulaguxon"
-  },
-  {
-    "id": 44,
-    "text": "Assassinlar qaysi shaxsning obro‘sini tan olgan?",
-    "options": ["Nizam ul-Mulk", "Salohiddin Ayyubiy", "Konrad Monferrat", "Malik Sanjar"],
-    "correct": "Salohiddin Ayyubiy"
-  },
-  {
-    "id": 45,
-    "text": "Quyidagi ma’lumotlardan qaysilari to‘g‘ri?\n1. Assassinlar Salohiddin Ayyubiy bilan kelishuvga erishgan.\n2. Ularning qal’alari 1256-yilda vayron qilingan.\n3. Ular Richard Sheryurakni o‘ldirgan.",
-    "options": ["1 va 2", "1 va 3", "2 va 3", "1, 2 va 3"],
-    "correct": "1 va 2"
-  },
-  {
-    "id": 46,
-    "text": "Assassinlar qaysi davlatning xalifasiga hujum qila olmagan?",
-    "options": ["Saljuqiylar", "Arab xalifaligi", "Fotimiylar", "Ayyubiylar"],
-    "correct": "Arab xalifaligi"
-  },
-  {
-    "id": 47,
-    "text": "Assassinlarning suiqasdlarida qanday maqsad ko‘zlangan?",
-    "options": ["Faqat diniy maqsadlar", "Siyosiy va diniy ta’sir", "Faqat iqtisodiy manfaatlar", "Faqat shaxsiy nafrat"],
-    "correct": "Siyosiy va diniy ta’sir"
-  },
-  {
-    "id": 48,
-    "text": "Assassinlar qaysi shaxs bilan dushmanlik qilgan?\n1. Salohiddin Ayyubiy\n2. Nizam ul-Mulk\n3. Chingizxon",
-    "options": ["1 va 2", "1 va 3", "2 va 3", "1, 2 va 3"],
-    "correct": "1 va 2"
-  },
-  {
-    "id": 49,
-    "text": "Assassinlarning qal’alari qachon vayron qilingan?",
-    "options": ["1092-yil", "1175-yil", "1256-yil", "1291-yil"],
-    "correct": "1256-yil"
-  },
-  {
-    "id": 50,
-    "text": "Quyidagi voqealardan qaysilari Assassinlar bilan bog‘liq?\n1. Alamut qal’asining vayron qilinishi\n2. Salohiddin Ayyubiyga suiqasd urinishlari\n3. Chingizxonning O‘rta Osiyoni zabt etishi",
-    "options": ["1 va 2", "1 va 3", "2 va 3", "1, 2 va 3"],
-    "correct": "1 va 2"
   }
 ]
