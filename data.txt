@@ -1,0 +1,62 @@
+const quizzes = [
+  {
+    id: 1,
+    text: "Assassinlar qaysi diniy sekta bilan bog‘liq bo‘lgan?",
+    options: ["Sunniylar", "Ismoiliylar", "Xristianlar", "Zardushtiylar"],
+    correct: "Ismoiliylar"
+  },
+  {
+    id: 2,
+    text: "Assassinlar asoschisi kim edi?",
+    options: ["Salohiddin Ayyubiy", "Hasan ibn Sabboh", "Nizam ul-Mulk", "Konrad Monferrat"],
+    correct: "Hasan ibn Sabboh"
+  },
+  {
+    id: 3,
+    text: "Assassinlar o‘z harakatiga qayerda asos solgan?",
+    options: ["Damashq", "Bag‘dod", "Alamut qal’asi", "Misr"],
+    correct: "Alamut qal’asi"
+  },
+  {
+    id: 4,
+    text: "Assassinlar qanday maqsad bilan suiqasd uyushtirgan?",
+    options: ["Boylik orttirish uchun", "Siyosiy ta’sir o‘tkazish uchun", "Shaxsiy qasos uchun", "Savdo yo‘llarini egallash uchun"],
+    correct: "Siyosiy ta’sir o‘tkazish uchun"
+  },
+  {
+    id: 5,
+    text: "Quyidagilardan qaysi biri Assassinlar tomonidan o‘ldirilgan?",
+    options: ["Salohiddin Ayyubiy", "Malik Sanjar", "Nizam ul-Mulk", "Richard Sheryurak"],
+    correct: "Nizam ul-Mulk"
+  },
+  {
+    id: 6,
+    text: "Konrad Monferrat qaysi voqea natijasida vafot etgan?",
+    options: ["Urushda", "Salibchilar o'rtasidagi nizo", "Assassinlar suiqasdi", "Salohiddin bilan duel"],
+    correct: "Assassinlar suiqasdi"
+  },
+  {
+    id: 7,
+    text: "Assassinlar Salohiddin Ayyubiyga qarshi necha marta suiqasd uyushtirishgan?",
+    options: ["1 marta", "2 marta", "3 marta", "4 marta"],
+    correct: "2 marta"
+  },
+  {
+    id: 8,
+    text: "Salohiddin Assassinlar bilan keyinchalik qanday munosabatda bo‘lgan?",
+    options: ["Ularni butunlay yo‘q qilgan", "Ular bilan tinchlik o‘rnatgan", "Ularni o‘z armiyasiga qo‘shgan", "Qochishga majbur qilgan"],
+    correct: "Ular bilan tinchlik o‘rnatgan"
+  },
+  {
+    id: 9,
+    text: "Assassinlar tarixda qaysi xalq tomonidan yakson qilingan?",
+    options: ["Arablar", "Saljuqiylar", "Mo‘g‘ullar", "Salibchilar"],
+    correct: "Mo‘g‘ullar"
+  },
+  {
+    id: 10,
+    text: "Alamut qal’asi qaysi yilda mo‘g‘ullar tomonidan egallangan?",
+    options: ["1219-yil", "1256-yil", "1237-yil", "1245-yil"],
+    correct: "1256-yil"
+  }
+];

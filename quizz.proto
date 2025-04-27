@@ -3,8 +3,8 @@ syntax = "proto3";
 package quizzPackage;
 
 service quizzService {
-  rpc GetQuizzes(Empty) returns (stream Quiz);
-  rpc TestResult(TestResultRequest) returns (TestResultResponse);
+  rpc GetQuizzes (Empty) returns (stream Quiz) {}
+  rpc TestResult (TestRequest) returns (TestResponse) {}
 }
 
 message Empty {}
@@ -16,12 +16,12 @@ message Quiz {
   string correct = 4;
 }
 
-message TestResultRequest {
+message TestRequest {
   string name = 1;
   int32 corrects = 2;
 }
 
-message TestResultResponse {
+message TestResponse {
   string name = 1;
   int32 result = 2;
 }
